@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic setup -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhishek Singh | Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    /* Global styles */
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: white;
+      scroll-behavior: smooth;
+    }
+
+    /* Header */
+    header {
+      padding: 30px 20px;
+      text-align: center;
+      background: rgba(30, 41, 59, 0.9);
+      position: sticky;
+      top: 0;
+      backdrop-filter: blur(10px);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    /* Navigation */
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #38bdf8;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: white;
+      transform: scale(1.1);
+    }
+
+    /* Sections */
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+      animation: fadeIn 1s ease-in;
+    }
+
+    /* Cards */
+    .card {
+      background: rgba(30, 41, 59, 0.8);
+      padding: 20px;
+      border-radius: 12px;
+      margin-top: 20px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+    }
+
+    /* Button */
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #38bdf8;
+      color: black;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .btn:hover {
+      background: white;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1e293b;
+    }
+
+    /* Animation */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Mobile */
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- Header -->
+<header>
+  <h1>Abhishek Singh</h1>
+  <p>Digital Marketing & SEO Specialist</p>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- About -->
+<section id="about">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>I am a Digital Marketing enthusiast specializing in SEO and content strategy.</p>
+  </div>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="card">
+    <ul>
+      <li>SEO (On-page & Off-page)</li>
+      <li>Keyword Research</li>
+      <li>Content Writing</li>
+      <li>WordPress</li>
+      <li>Google Analytics</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="card">
+    <h3>SEO Optimization - stinfo.in</h3>
+    <p>Website audit and SEO optimization.</p>
+  </div>
+
+  <div class="card">
+    <h3>Blog Writing</h3>
+    <p>SEO-friendly content writing.</p>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Email: asingh708077@gmail.com</p>
+    <p>Phone: +91-7080776363</p>
+    <p>WhatsApp: 7080776363</p>
+
+    <a href="https://wa.me/917080776363" class="btn">Chat on WhatsApp</a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2026 Abhishek Singh</p>
+</footer>
+
+</body>
+</html>
+<div class="card">
+  <h3>SEO Case Study - stinfo.in</h3>
+  <p><b>Goal:</b> Improve website ranking and traffic</p>
+
+  <p><b>Work Done:</b></p>
+  <ul>
+    <li>Keyword research using free tools</li>
+    <li>Meta title & description optimization</li>
+    <li>On-page SEO improvements</li>
+    <li>Content structure optimization</li>
+  </ul>
+
+  <p><b>Result:</b></p>
+  <ul>
+    <li>Improved keyword targeting</li>
+    <li>Better content readability</li>
+    <li>SEO score improved</li>
+  </ul>
+</div>
